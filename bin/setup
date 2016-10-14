@@ -15,3 +15,7 @@ if [ ! $(command -v node) ]; then
   popd
 fi
 
+mkdir -p ~/lib
+git clone git@github.com:google/blockly.git ~/lib/blockly
+
+ln -s ~/lib/blockly/demos ~/play/blockly/public/blockly-demos

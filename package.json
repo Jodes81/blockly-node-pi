@@ -1,0 +1,22 @@
+{
+  "name": "blockly-node-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jodes81/blockly-node-pi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jodes81/blockly-node-pi/issues"
+  },
+  "homepage": "https://github.com/Jodes81/blockly-node-pi#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
